@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width: 1200px){
+    .inner{width:96%}
+    .platform_img img{width:100%}
+}
+@media screen and (max-width: 960px){
+    .inner{width:96%}
+    .banner{text-align: center}
+    .banner h1{font-size: 2.5rem !important;}
+    .platform_img img{width:100%}
+    .more_function li{width:50% !important;}
+    .right{padding:0 !important;}
+    .left{padding:0 !important;}
+    .estimate_app li{width:33.333%}
+}
+@media screen and (max-width: 750px){
+    .banner h1{font-size: 2.5rem !important;}
+    .header .nav{display: none}
+    .header .reorder{display: block}
+    .slide_nav ul li{width:3.625rem !important;}
+    .platform_app{display: none !important;height:0 !important;}
+    .main .section_platform{min-height: 0 !important;}
+    .function{height:auto !important;}
+    .left,.right{width:100% !important;position:static !important; left:auto !important;top:auto !important;transform: translateY(0)!important;}
+    .left{width:80% !important;margin:0 auto !important; text-align: center}
+    .right{width: 50% !important;margin: 0 auto}
+    .right img{left:50% !important;margin-left:-50% !important;width:100% !important;}
+    .left h4{font-size: 24px !important;margin:20px 0 !important;}
+    .function_one .right{top:0 !important;}
+
+}
+@media screen and (max-width: 480px){
+    .more_function li{width:100% !important;}
+    .right{width: 80% !important;margin: 0 auto}
+
+}
+/*@media screen and (max-width:1200px){*/
+    /*html{font-size: 16px  !important;}*/
+/*}*/
+/*@media screen and (max-width:960px){*/
+    /*html{font-size: 12.8px  !important;}*/
+/*}*/
+/*@media screen and (max-width:480px){*/
+    /*html{font-size: 6.4px  !important;}*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media only screen and (min-width: 401px){*/
+    /*html {*/
+        /*font-size: 25px !important;*/
+    /*}*/
+/*}*/
+/*@media only screen and (min-width: 428px){*/
+    /*html {*/
+        /*font-size: 26.75px !important;*/
+    /*}*/
+/*}*/
+/*@media only screen and (min-width: 481px){*/
+    /*html {*/
+        /*font-size: 30px !important;*/
+    /*}*/
+/*}*/
+/*@media only screen and (min-width: 569px){*/
+    /*html {*/
+        /*font-size: 35px !important;*/
+    /*}*/
+/*}*/
+/*@media only screen and (min-width: 641px){*/
+    /*html {*/
+        /*font-size: 40px !important;*/
+    /*}*/
+/*}*/

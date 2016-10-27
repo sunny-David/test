@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/vip.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/style.js"></script>
+    <script src="js/vip.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="inner clear">
+        <a href="index.html" class="logo clear">
+            <img src="images/logo.ico">
+            <span>滴滴清单</span>
+        </a>
+        <ul class="nav clear">
+            <li><a href="#" class="home">高级账户</a></li>
+            <li><a href="#">论坛</a></li>
+            <li><a href="login.html">创建免费账户</a></li>
+            <li><a href="login.html">登录</a></li>
+        </ul>
+        <i class="fa fa-reorder reorder"></i>
+    </div>
+    <div class="line"></div>
+</div>
+<div class="banner">
+    <div class="inner clear">
+        <div class="banner_left">
+            <h1>高级账户<span></span></h1>
+            <p>更多高级功能，保持专注高效，<br>实现更多目标和可能。</p>
+            <div class="upgrade"><a href="javascript:;">立即升级</a></div>
+            <a href="#privilegeList" class="privilege" >高级账户所有特权</a>
+        </div>
+        <div class="banner_right">
+            <img src="images/cover.jpg">
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="infoList">
+        <div class="info info_one clear">
+            <div class="info_left">
+                <h4>网格日历</h4>
+                <p>为你全局呈现月度计划，直观查看你的日程，所有事情一目了然。</p>
+                <a href="javascript:;" class="upgrade">立即升级</a>
+            </div>
+            <div class="info_right">
+                <img src="images/grid-calendar.png">
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="info info_two clear">
+            <div class="info_left">
+                <h4>订阅日历</h4>
+                <p>将第三方日历事件显示在滴答清单中，所有事情一手掌握。</p>
+                <a href="javascript:;" class="upgrade">立即升级</a>
+            </div>
+            <div class="info_right">
+                <img src="images/s-calendar.png">
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="info info_three clear">
+            <div class="info_left">
+                <h4>任务动态</h4>
+                <p>任务何时创建、中间有哪些修改、最后由谁完成，一览无遗。</p>
+                <a href="javascript:;" class="upgrade">立即升级</a>
+            </div>
+            <div class="info_right">
+                <img src="images/t-activity.png">
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="info info_four clear">
+            <div class="info_left">
+                <h4>数量升级</h4>
+                <p>无限清单、任务和子任务，满足个人时间管理和团队任务协作所需。每个任务可设置最多5个提醒，多重保险杜绝遗漏。</p>
+                <a href="javascript:;" class="upgrade">立即升级</a>
+            </div>
+            <div class="info_right">
+                <img src="images/reminders.png">
+            </div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div id="privilegeList" class="privilegeList inner">
+        <h2>高级账户所有特权</h2>
+        <table>
+            <thead>
+            <tr>
+                <th></th>
+                <th>普通账户</th>
+                <th>高级账户<span></span></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <i class="list"></i>
+                    <span>清单数量</span>
+                </td>
+                <td>
+                    <span>19</span>
+                    <span class="desc">可创建清单</span>
+                </td>
+                <td>
+                    <span title="综合使用情况和性能影响，默认高级账户最高可创建有限个清单。如需扩容请通过支持邮箱联系我们。">无限*</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="task"></i>
+                    <span>任务数量</span>
+                </td>
+                <td>
+                    <span>99</span>
+                    <span class="desc">每个清单</span>
+                </td>
+                <td>
+                    <span title="综合使用情况和性能影响，默认高级账户最高可创建有限个清单。如需扩容请通过支持邮箱联系我们。">无限*</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="subtask"></i>
+                    <span>子任务数量</span>
+                </td>
+                <td>
+                    <span>19</span>
+                    <span class="desc">每个任务</span>
+                </td>
+                <td>
+                    <span title="综合使用情况和性能影响，默认高级账户最高可创建有限个清单。如需扩容请通过支持邮箱联系我们。">无限*</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="clock"></i>
+                    <span>提醒数量</span>
+                </td>
+                <td>
+                    <span>2</span>
+                    <span class="desc">每个任务</span>
+                </td>
+                <td>
+                    <span>1</span>
+                    <span class="desc">每个任务</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="file"></i>
+                    <span>附件数量</span>
+                </td>
+                <td>
+                    <span>1</span>
+                    <span class="desc">每天可上传</span>
+                </td>
+                <td>
+                    <span>99</span>
+                    <span class="desc">每天可上传</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="share"></i>
+                    <span>共享成员数量</span>
+                </td>
+                <td>
+                    <span>1</span>
+                    <span class="desc">每个清单</span>
+                </td>
+                <td>
+                    <span>19</span>
+                    <span class="desc">每个清单</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="subdesc"></i>
+                    <p>
+                        <span>子任务和文本共存</span>
+                        <span class="desc">记录列表模式任务的进展</span>
+                    </p>
+                </td>
+                <td>
+                    <span>-</span>
+                </td>
+                <td>
+                    <span class="support"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="subscribe"></i>
+                    <p>
+                        <span>订阅日历</span>
+                        <span class="desc">集成第三方日历事件</span>
+                    </p>
+                </td>
+                <td>
+                    <span>-</span>
+                </td>
+                <td>
+                    <span class="support"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="custom"></i>
+                    <p>
+                        <span>自定义智能清单</span>
+                        <span class="desc">以你习惯的方式来过滤、查看和管理任务。</span>
+                    </p>
+                </td>
+                <td>
+                    <span>-</span>
+                </td>
+                <td>
+                    <span class="support"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="siri"></i>
+                    <p>
+                        <span>集成Siri</span>
+                        <span class="desc">在iPhone上使用Siri创建任务</span>
+                    </p>
+                </td>
+                <td>
+                    <span>-</span>
+                </td>
+                <td>
+                    <span class="support"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="activity"></i>
+                    <p>
+                        <span>清单和任务动态</span>
+                        <span class="desc">在Web上查询清单和任务的操作记录</span>
+                    </p>
+                </td>
+                <td>
+                    <span>-</span>
+                </td>
+                <td>
+                    <span class="support"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="search"></i>
+                    <p>
+                        <span>高级搜索</span>
+                        <span class="desc">在Web上使用过滤器精确查找任务</span>
+                    </p>
+                </td>
+                <td>
+                    <span>-</span>
+                </td>
+                <td>
+                    <span class="support"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="calendar"></i>
+                    <p>
+                        <span>日历视图</span>
+                        <span class="desc">在Web上查看月度计划</span>
+                    </p>
+                </td>
+                <td>
+                    <span>-</span>
+                </td>
+                <td>
+                    <span class="support"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="mini"></i>
+                    <p>
+                        <span>Mini日历</span>
+                        <span class="desc">在Web上迅速定位某天的任务情况</span>
+                    </p>
+                </td>
+                <td>
+                    <span>-</span>
+                </td>
+                <td>
+                    <span class="support"></span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="price">
+        <div class="inner">
+            <h2>升级高级账户每月仅需13.9元</h2>
+            <a  class="upgrade">立即升级</a>
+        </div>
+    </div>
+    <div class="question">
+        <div class="inner">
+            <a class="question_title">常见问题</a>
+            <ul>
+                <li>
+                    <a class="question_txt">如果觉得不满意，可以退款吗？</a>
+                    <span class="question_info">可以，您可以在购买后14天内申请退款，将您的订单编号等信息发邮件至support@dida365.com即可。</span>
+                </li>
+                <li>
+                    <a class="question_txt">如果没有及时付费，我的数据会丢吗？</a>
+                    <span class="question_info">我们非常注重保护您的数据。高级账户到期后，您的数据将被完整地保留，依然可以像免费账户一样使用滴答清单，但不能继续享受高级账户对应的特权。</span>
+                </li>
+                <li>
+                    <a class="question_txt">我还有其他疑问，怎么办？</a>
+                    <span class="question_info">请移步帮助中心：https://help.dida365.com，或者通过邮箱support@dida365.com联系我们。</span>
+                </li>
+                <li>
+                    <a class="question_txt">可以开发票吗？</a>
+                    <span class="question_info">可以，请将以下信息发邮件至support@dida365.com，我们将以快递的方式寄送，邮费到付。</span>
+                    <span>1、付费订单编号。</span>
+                    <span>2、发票抬头；如果是单位，请提供税号。</span>
+                    <span>3、快递地址、收件人、电话。</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="vip_footer">
+    <div class="inner">
+        <div class="footer_link_top">
+            <a href="#">帮助</a>
+            <a href="#">博客</a>
+            <a href="#">媒体素材</a>
+            <a href="#">中文</a>
+        </div>
+        <div class="footer_link_bottom">
+            <a href="#">关于我们</a>
+            <span>|</span>
+            <a href="#">高级账户</a>
+            <span>|</span>
+            <a href="#">隐私声明</a>
+            <span>|</span>
+            <a href="#">使用条款</a>
+            <span>|</span>
+            <a href="#">致谢</a>
+            <span>|</span>
+            <a href="#">开源协议</a>
+        </div>
+        <div class="copyright">
+            <span>© 2016 杭州随笔记网络技术有限公司 </span>
+            <a href="#">浙ICP备12005180号-3</a>
+        </div>
+        <div class="police">
+            <a href="#">浙公网安备 33010602005056号</a>
+        </div>
+    </div>
+</div>
+
+<div class="modal"></div>
+
+<div class="pop_window">
+    <div class="pop">
+        <div class="pop_title">
+            <a class="closeBtn">×</a>
+            <h2>升级到高级账户</h2>
+            <div class="pop_price clear">
+                <div class="menu">
+                    <div class="menu_frame">1</div>
+                    <ul class="choose_menu">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li>7</li>
+                        <li>8</li>
+                        <li>9</li>
+                        <li>10</li>
+                        <li>11</li>
+                        <li>12</li>
+                    </ul>
+                </div>
+                <div class="date">
+                    <div class="date_frame">月</div>
+                    <ul class="choose_date">
+                        <li>月</li>
+                        <li>年</li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+                <p id="original_price">原价：￥13.9</p>
+                <p id="discount_price">￥9.9</p>
+            </div>
+        </div>
+        <div class="pop_content">
+            <p class="type">支付方式：支付宝</p>
+            <p class="text_info">* 即将恢复原价</p>
+            <p class="text_info">* 您可在付费后14天内退款</p>
+        </div>
+        <div class="pop_btn">
+            <a href="login.html" class="log_in">立即支付</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

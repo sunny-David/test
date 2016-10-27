@@ -1,0 +1,14 @@
+[
+  {"class":"fa fa-weixin","title":"微信创建任务","info":"可以在微信公众号中添加任务"},
+  {"class":"fa fa-folder-open-o","title":"文件夹","info":"将同类型的清单整理到同一个文件夹"},
+  {"class":"fa fa-clock-o","title":"多闹钟","info":"可以对一个任务添加多个闹钟"},
+  {"class":"fa fa-volume-up","title":"语音输入","info":"可以在手机端直接说话添加任务"},
+  {"class":"fa fa-sliders","title":"多优先级","info":"可以对任务标记多种优先级"},
+  {"class":"fa fa-mixcloud","title":"数据备份","info":"支持对账号数据进行备份"},
+  {"class":"fa fa-calendar","title":"订阅日历","info":"订阅第三方日历在应用内显示"},
+  {"class":"fa fa-tag","title":"标签","info":"使用标签，更好地管理任务"},
+  {"class":"fa fa-microphone","title":"Siri","info":"支持通过Siri添加任务"},
+  {"class":"fa fa-table","title":"农历和节假日","info":"支持在日历中显示农历和法定节假日"},
+  {"class":"fa fa-print","title":"打印","info":"提供打印功能，方便工作记录回顾"},
+  {"class":"fa fa-search","title":"搜索","info":"快速找到你想要的任务"}
+]
